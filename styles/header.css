@@ -1,36 +1,19 @@
 .header{
-    height: 75px;
+    height: 80px;
     background-color: #060606;
     margin: -8px;
     padding: 0;
     display: flex;
     justify-content: space-between;
-    color: white;
-    font-family:'Lato', Sans-Serif;
-    letter-spacing: -1; 
-    /* font-family:'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; */
-
 }
  
-a{
-    color: inherit;
-    font-family: inherit;
-    text-decoration: none;
-}
- 
-button{
-    color: inherit;
-    border: none;
-    border-radius: 3px;
-    padding: 13px 20px;
-}
- 
+/* left column designs */
 .header > .left-column{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 75px;
-    margin-left: 7px;
+    margin-left: 20px;
 }
  
 .header > .left-column > .logo img{
@@ -38,31 +21,36 @@ button{
     width: 180px;
 }
  
-.nav-bar{
-    color: #F4E184;
+.left-column > .nav-bar{
+    color: #ffed93;
+    /* this only affects the EXPLORE */
     font-size: 1em;
     padding-left: 40px;
-    margin-top: -10px;
+}
+
+.left-column > .nav-bar > .explore{
+    font-size: .9em;
+    letter-spacing: .1;
+    font-weight: 600;
+    margin-bottom: -3px;
 }
  
 .nav-bar > .nav{
     display: flex;
     flex-direction: row;
-}
- 
-.nav-bar > .nav > .nav-link{
-    padding-right: 15px;
+    width: 400px;
+    justify-content: space-between;
 }
  
 .nav-bar > .nav > .nav-link a{
     color: white;
     text-decoration: none;
-    font-size: 1.28em;
-    font-weight: 600;
+    font-size: 1.2em;
+    font-weight: 900;
 }
  
 .nav-bar > .nav > .dropdown-menu{
-    color: #C1C1C1;
+    color: #cacaca;
     padding-left: 15px;
     display: flex;
     align-items: center;
@@ -70,49 +58,48 @@ button{
     font-weight: 500;
     font-family: Tahoma, Sans-Serif;
     letter-spacing: 0;
-    font-size: 1em;
+    font-size: 1.15em;
 }
- 
-.nav-bar > .nav > .dropdown-menu a{
-    text-decoration: none;
-    font-size: 1.2em;
- 
-}
- 
+
+/* the down chevron after Spark */
 .nav > .dropdown-menu::after{
     font-family: "Font Awesome 6 Free";
     content: " \f078";
     font-weight: 900;
-    padding-left: 5px;
+    padding-left: 13px;
+    font-size: 0.75em;
+    color: #cacaca;
  
 }
 
-.right-column > .dropdown-menu button::after{
-    font-family: "Font Awesome 6 Free";
-    content: " \f078";
-    font-weight: 900;
-    padding-left: 5px;
-}
- 
+/* right-column styles start here */
 .header > .right-column{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 410px;
-    margin-right: 10px;
+    margin-right: 8px;
 }
  
 .right-column button{
-    background-color: #44454E;
-    /* margin: 0px 6px; */
-    font-size: 1.2em;
+    background-color: #45454e;
+    font-size: 1.15em;
     font-weight: 600;
-    width: fit-content;
+}
+
+/* down chevron after create */
+.right-column > .dropdown-menu button::after{
+    font-family: "Font Awesome 6 Free";
+    content: " \f078";
+    font-weight: 900;
+    padding-left: 5px;
+    color: rgb(79, 216, 120);
+    font-size: 1.2em;
 }
 
 .right-column > .search-img i{
     font-size: 2em;
-    color: #8F90A0;
-    padding: 0px 7px;
+    color: #8f8fa3;
+    padding: 0px 12px;
 }

@@ -1,0 +1,21 @@
+/* making the default text fit the design of the website */
+body{
+    color: white;
+    letter-spacing: -1; 
+    font-family:'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+/* making it so that the links don't have text deoration and will follow the font and color when specified in other styles */
+a{
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
+ 
+/* changing up the buttons so that they have similar styles to the website's buttons */
+button{
+    color: inherit;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 20px;
+}

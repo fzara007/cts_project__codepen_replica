@@ -1,8 +1,7 @@
 .header{
-    height: 80px;
+    height: 75px;
     background-color: #060606;
-    margin: -8px;
-    padding: 0;
+    padding-top: 10;
     display: flex;
     justify-content: space-between;
 }
@@ -13,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     height: 75px;
-    margin-left: 20px;
+    margin-left: 12px;
 }
  
 .header > .left-column > .logo img{
@@ -31,8 +30,7 @@
 .left-column > .nav-bar > .explore{
     font-size: .9em;
     letter-spacing: .1;
-    font-weight: 600;
-    margin-bottom: -3px;
+    font-weight: 500;
 }
  
 .nav-bar > .nav{
@@ -45,12 +43,12 @@
 .nav-bar > .nav > .nav-link a{
     color: white;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-weight: 900;
 }
  
 .nav-bar > .nav > .dropdown-menu{
-    color: #cacaca;
+    color: rgba(225, 225, 225, 80%);
     padding-left: 15px;
     display: flex;
     align-items: center;
@@ -68,7 +66,7 @@
     font-weight: 900;
     padding-left: 13px;
     font-size: 0.75em;
-    color: #cacaca;
+    color: rgba(225, 225, 225, 85%);
  
 }
 
@@ -78,13 +76,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 410px;
-    margin-right: 8px;
+    width: 420px;
+    margin-right: 10px;
 }
  
 .right-column button{
-    background-color: #45454e;
-    font-size: 1.15em;
+    background-color: #3d3e45;
+    font-size: 1.11em;
     font-weight: 600;
 }
 
@@ -94,12 +92,12 @@
     content: " \f078";
     font-weight: 900;
     padding-left: 5px;
-    color: rgb(79, 216, 120);
+    color: #6bd37b;
     font-size: 1.2em;
 }
 
 .right-column > .search-img i{
     font-size: 2em;
-    color: #8f8fa3;
+    color:#878a97;
     padding: 0px 12px;
 }

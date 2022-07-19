@@ -3,6 +3,7 @@ body{
     color: white;
     letter-spacing: -1; 
     font-family:'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    margin: -8px 0px;
 }
 
 /* making it so that the links don't have text deoration and will follow the font and color when specified in other styles */
@@ -18,4 +19,19 @@ button{
     border: none;
     border-radius: 4px;
     padding: 14px 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 2.15em;
+    letter-spacing: 0.3;
+    margin: 25px 20px 20px 0px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.8em;
+    letter-spacing: -0.8;
+    line-height: 1.45em;
 }

@@ -1,0 +1,67 @@
+.intro-section{
+    height: 425px;
+    background: rgb(51,54,62);
+    background: linear-gradient(90deg, rgba(51,54,62,1) 0%, rgba(65,69,79,1) 28%, rgba(44,47,54,1) 56%, rgba(32,34,39,1) 78%, rgba(11,12,13,1) 94%);
+    box-shadow: inset -56px -126px 113px -72px rgb(29 30 35);
+    /* my attempt at the background (gradient from https://cssgradient.io/) */
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.about-us-description{
+    margin-left: 50px;
+    padding-right: 30px;
+    margin-top: -20px;
+}
+
+.about-us-description > .blurb > .text{
+    padding-right: 80px;
+    margin-top: -10px;
+    padding-bottom: 15px;
+}
+
+.about-us-description > .blurb > .text h2{
+    color: rgba(225, 225, 225, 65%);
+}
+
+.about-us-description > .buttons{
+    width: 465px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-us-description > .buttons button{
+    font-size: 2em;
+    letter-spacing: -0.5;
+    font-weight: 500;
+}
+
+.about-us-description > .buttons > #sign-up-button button{
+    background-color: #57b375;
+    color: black;
+}
+
+.about-us-description > .buttons > #learn-more-button button{
+    background-color: #171717;
+    color: white;
+}
+
+.example-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.example-pic > #caption{
+    font-size: 1.05em;
+    font-weight: 600;
+    letter-spacing: 0.2;
+    margin-left: 10px;
+}
+
+.example-pic img{
+    box-shadow: -15px 14px 36px -8px rgba(0,0,0,0.60);    
+}

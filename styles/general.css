@@ -4,6 +4,7 @@ body{
     letter-spacing: -1; 
     font-family:'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
     margin: -8px 0px;
+    background-color: #222325;
 }
 
 /* making it so that the links don't have text deoration and will follow the font and color when specified in other styles */
@@ -34,4 +35,15 @@ h2{
     font-size: 1.8em;
     letter-spacing: -0.8;
     line-height: 1.45em;
+}
+
+p{
+    font-size: 1.1em;
+    letter-spacing: 0;
+}
+
+.footer-section span{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.25em;
 }

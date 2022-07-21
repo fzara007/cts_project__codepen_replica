@@ -19,7 +19,8 @@
     filter: invert(100%);
     width: 180px;
 }
- 
+
+/* this is the part between the logo and the buttons on the right */
 .left-column > .nav-bar{
     color: #ffed93;
     /* this only affects the EXPLORE */

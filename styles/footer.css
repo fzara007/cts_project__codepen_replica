@@ -1,7 +1,6 @@
 .footer{
     background-color: #70706f;
     height: 70px;
-    margin-bottom: -12px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2px;
@@ -15,4 +14,11 @@
     align-items: center;
     border-bottom: solid 1.5px #70706f;
     border-top: solid 1.5px #70706f;
+}
+
+/* to make the teams, education, privacy, and writing part match */
+.footer-section span{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.25em;
 }

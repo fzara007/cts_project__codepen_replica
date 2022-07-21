@@ -10,6 +10,7 @@
     padding-top: 50px;
 }
 
+/* the about-us part is the blurb of info about CodePen */
 .about-us-description{
     margin-left: 50px;
     padding-right: 30px;
@@ -26,6 +27,7 @@
     color: rgba(225, 225, 225, 65%);
 }
 
+/* these are the sign up and learn more buttons */
 .about-us-description > .buttons{
     width: 465px;
     display: flex;
@@ -49,19 +51,21 @@
     color: white;
 }
 
+/* the picture on the right */
 .example-pic{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.example-pic img{
+    box-shadow: -20px 0px 36px -8px rgba(0,0,0,0.60);    
+}
+
+/* the text on top of the pic */
 .example-pic > #caption{
     font-size: 1.05em;
     font-weight: 600;
     letter-spacing: 0.2;
     margin-left: 10px;
-}
-
-.example-pic img{
-    box-shadow: -20px 0px 36px -8px rgba(0,0,0,0.60);    
 }
